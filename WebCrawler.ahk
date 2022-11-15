@@ -1,9 +1,8 @@
 ﻿; 압살맨 티스토리 apsalman.tistory.com
-CoordMode, Mouse, Screen
 
 #NoTrayIcon
 Global wh := ComObjCreate("WinHTTP.WinHTTPRequest.5.1") ;WinHTTP 오브젝트 생성
-	  ,req := ComObjCreate("MSXML2.XMLHTTP.6.0") ;XMLHTTP 오브젝트 생성
+     ,req := ComObjCreate("MSXML2.XMLHTTP.6.0") ;XMLHTTP 오브젝트 생성
 ;----------------------------------Gui 영역----------------------------------
 Gui, Add, Text, x10 y11 w70 h20, 사이트 주소
 Gui, Add, Edit, x80 y8.5 w350 h20 vSiteLink, 
